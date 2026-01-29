@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salt & Smoke Menu</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 40px;
+      line-height: 1.5;
+      max-width: 1000px;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      margin-top: 64px;
+      margin-bottom: 24px;
+      border-bottom: 2px solid #000;
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.1em;
+      letter-spacing: 0.04em;
+    }
+
+    .note {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    .item {
+      margin-bottom: 12px;
+    }
+
+    .item-name {
+      font-weight: 600;
+    }
+
+    .price {
+      float: right;
+      font-weight: 600;
+    }
+
+    .desc {
+      font-size: 0.9em;
+      color: #444;
+      margin-top: 4px;
+    }
+
+    .item::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Salt & Smoke</h1>
+
+<p class="note">
+  Chef & Pitmaster: Haley Riley<br>
+  Served with choice of one side<br>
+  Substitute: Gluten-Free or Vegan Bun +2
+</p>
+
+<h2>Appetizers</h2>
+
+<div class="section">
+  <div class="card">
+    <h3>Starters</h3>
+
+    <div class="item">
+      <span class="item-name">Trashed Ribs</span>
+      <span class="price">14.99</span>
+      <div class="desc">Sweet or BuffaLove Me · GF</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Fried House Pickles</span>
+      <span class="price">8.99</span>
+      <div class="desc">B&B pickles, dill spears, gherkins · flaxseed mayo</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Hush Puppies</span>
+      <span class="price">6.99</span>
+      <div class="desc">Maple butter</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Deviled Eggs</span>
+      <span class="price">6.99</span>
+      <div class="desc">With bacon · GF</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>More to Share</h3>
+
+    <div class="item">
+      <span class="item-name">Burnt End Toasted Ravs</span>
+      <span class="price">12.99</span>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Pimento Cheese Toasted Ravs</span>
+      <span class="price">12.99</span>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Fried Chicken Skins</span>
+      <span class="price">7.99</span>
+      <div class="desc">Honey grain mustard · GF</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Cherry Smoked Wings</span>
+      <span class="price">14.99</span>
+      <div class="desc">Dry rub, sweet trashed, or buffalo trashed · GF</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Loaded Beef Fat Fries</span>
+      <span class="price">9.99</span>
+      <div class="desc">Cheese sauce, bacon, scallions, Alabama ranch · add brisket chili +2.50</div>
+    </div>
+  </div>
+</div>
+
+<h2>Salads</h2>
+<p class="note">Half 8.99 · Full 13.99 · Side 4.99</p>
+
+<div class="section">
+  <div class="card">
+    <div class="item">
+      <span class="item-name">Caesar</span>
+      <div class="desc">Romaine, brioche croutons, parmesan</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="item">
+      <span class="item-name">Kale Crunch (GF)</span>
+      <div class="desc">Kale, Brussels sprouts, cabbage, walnuts, goat cheese, dried apricots, red onion, grape tomatoes, honey roasted garlic dressing</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="item">
+      <span class="item-name">Mixed Green</span>
+      <div class="desc">Mixed greens, grape tomatoes, roasted red peppers, red onions, white cheddar, croutons, white balsamic vinaigrette</div>
+    </div>
+  </div>
+</div>
+
+<h2>Sandwiches</h2>
+
+<div class="section">
+  <div class="card">
+    <div class="item">
+      <span class="item-name">Pulled Pork</span>
+      <span class="price">14.99</span>
+      <div class="desc">Coleslaw, house pickles</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Brisket</span>
+      <span class="price">16.99</span>
+      <div class="desc">Burnt end mayo, tobacco onions</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Pulled Chicken</span>
+      <span class="price">14.99</span>
+      <div class="desc">Pimento cheddar, street corn relish</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="item">
+      <span class="item-name">Cherry Smoked Salmon</span>
+      <span class="price">16.99</span>
+      <div class="desc">Served chilled · pickled onions, roasted red pepper, greens, smoked tomato mayo</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">BLT</span>
+      <span class="price">13.99</span>
+      <div class="desc">Bacon, smoked tomato, lettuce, smoked paprika aioli</div>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Fried Jalapeño + Cheddar Bologna</span>
+      <span class="price">13.99</span>
+      <div class="desc">Chow chow, honey grain mustard</div>
+    </div>
+  </div>
+</div>
+
+<p class="note">
+  Add-ons: Brisket or cherry smoked salmon — 6 · Pulled pork, falafel, fried jalapeño + cheddar bologna, or pulled chicken — 5 each
+</p>
+
+<h2>Plates</h2>
+<p class="note">Served with a bacon & cheddar popover + two sides</p>
+
+<div class="section">
+  <div class="card">
+    <div class="item"><span class="item-name">Pulled Pork</span><span class="price">18.99</span></div>
+    <div class="item"><span class="item-name">Brisket</span><span class="price">22.99</span></div>
+    <div class="item"><span class="item-name">Pulled Chicken</span><span class="price">18.99</span></div>
+    <div class="item"><span class="item-name">Smoked Wings</span><span class="price">20.99</span></div>
+    <div class="item"><span class="item-name">St. Louis Cut Ribs</span><span class="price">19.99 / 29.99</span></div>
+    <div class="item"><span class="item-name">Fried Jalapeño + Cheddar Bologna</span><span class="price">17.99</span></div>
+  </div>
+</div>
+
+<p class="note">
+  Bestie Combo: 2 meats — 21.99 · 3 meats — 25.99 · 4 meats — 29.99
+</p>
+
+<h2>Sides</h2>
+
+<div class="section">
+  <div class="card">
+    <div class="item"><span class="item-name">Beef Fat Fries (GF)</span><span class="price">5.99</span></div>
+    <div class="item"><span class="item-name">Pit Beans with Smoked Bacon (GF)</span><span class="price">4.99</span></div>
+    <div class="item"><span class="item-name">Sweet Pepper Potato Salad (GF)</span><span class="price">4.99</span></div>
+    <div class="item"><span class="item-name">Coleslaw (GF)</span><span class="price">3.99</span></div>
+    <div class="item"><span class="item-name">White Cheddar Cracker Mac</span><span class="price">5.99</span></div>
+    <div class="item"><span class="item-name">Green Bean + Tomato Salad (GF)</span><span class="price">4.99</span></div>
+    <div class="item"><span class="item-name">Creamed Corn (GF)</span><span class="price">5.99</span></div>
+    <div class="item"><span class="item-name">Brisket Chili (GF)</span><span class="price">4.99</span></div>
+    <div class="item"><span class="item-name">Special Side</span><span class="price">4.99</span></div>
+  </div>
+</div>
+
+<h2>Dessert & Drinks</h2>
+
+<div class="section">
+  <div class="card">
+    <h3>Dessert</h3>
+    <div class="item"><span class="item-name">Lemon Gooey Butter Cake</span><span class="price">8.99</span></div>
+    <div class="item"><span class="item-name">Dark Chocolate Brownie</span><span class="price">7.99</span></div>
+    <div class="item"><span class="item-name">Brown Butter Pecan Bar</span><span class="price">9.99</span></div>
+    <div class="item"><span class="item-name">Ice Cream + Sorbet</span><span class="price">5.99 / 2.99</span></div>
+  </div>
+
+  <div class="card">
+    <h3>Fountain Drinks</h3>
+    <p class="note">
+      Lucky Club Cola · Diet Lucky Club Cola · Sparkling Life Lemon/Lime · Frostie Root Beer<br>
+      Lemonade (black cherry, R-Pep, Ski)<br>
+      Iced Tea (sweet or unsweet) — 2.99<br>
+      San Pellegrino (500ml) — 2.99
+    </p>
+    <p class="note">
+      Excel Bottling Company · All natural cane sugar · locally made since 1936
+    </p>
+  </div>
+</div>
+
+<h2>Meat by the Pound</h2>
+
+<div class="section">
+  <div class="card">
+    <div class="item"><span class="item-name">Pulled Pork</span><span class="price">18.99 / lb</span></div>
+    <div class="item"><span class="item-name">Chicken</span><span class="price">18.99 / lb</span></div>
+    <div class="item"><span class="item-name">Brisket</span><span class="price">24.99 / lb</span></div>
+    <div class="item"><span class="item-name">Ribs</span><span class="price">24.99 / slab</span></div>
+  </div>
+</div>
+
+<h2>Sauces</h2>
+<p class="note">
+  My Sweet Bestie · Hotangy · Alabama Ranch · Mustarolina · I Can’t Even · BuffaLove Me
+</p>
+
+<p class="note" style="margin-top:64px;">
+  @SALTANDSMOKEBBQ<br>
+  Please ask your server for a full allergen menu and how we can best accommodate your dietary needs.
+</p>
+
+</body>
+</html>
