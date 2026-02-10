@@ -1,3 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee+Shade&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fredericka+the+Great&family=Honk:MORF@45&family=Protest+Revolution&family=Stardos+Stencil:wght@400;700&family=Truculenta:opsz,wght@12..72,100..900&family=WindSong&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    font-family: "Fredericka the Great", serif;
+    padding: 20px;
+    
+    text-align: center; 
+}
+
+h1 {
+    font-family: "WindSong", cursive;
+    font-size: 35px;
+    letter-spacing: .2em;
+    margin: 20px 0; 
+    color: palevioletred
+}
+
+h2 {
+    font-family: "Stardos Stencil", system-ui;
+    font-size: 22px;
+    letter-spacing: .15em;
+    margin: 20px 0;
+    color: palevioletred; 
+}
+
+ul {
+    list-style-position: inside; 
+    padding: 0; 
+}
+
+a {
+    color: #0d47a1;
 }
